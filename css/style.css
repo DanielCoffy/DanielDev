@@ -4,6 +4,11 @@ html, body, #home{
     overflow-x: hidden;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+
 body{
     background: url(../imagens/capa.png);
     background-attachment: fixed;
