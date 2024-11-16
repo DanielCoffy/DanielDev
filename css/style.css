@@ -336,8 +336,8 @@ footer a:hover{
         width: 10%; /* Ajusta os botões do carrossel para ficarem visíveis */
     }
      .carousel-item img {
-        width: 300px; /* Reduz o tamanho das imagens para telas menores */
-        height: 300px;
+        width: 200px; /* Reduz o tamanho das imagens para telas menores */
+        height: 200px;
         margin: 0 auto; /* Centraliza as imagens */
     }
 }
