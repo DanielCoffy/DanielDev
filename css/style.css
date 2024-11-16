@@ -332,9 +332,13 @@ footer a:hover{
 
 /* Extra small devices (portrait phones, less than 576px) */
 @media (min-width: 575.98px) {
-    .btn-custom{
-        margin: 10px 15px;
-        font-size: 1em;
+      .carousel-control-next, .carousel-control-prev {
+        width: 10%; /* Ajusta os botões do carrossel para ficarem visíveis */
+    }
+     .carousel-item img {
+        width: 300px; /* Reduz o tamanho das imagens para telas menores */
+        height: 300px;
+        margin: 0 auto; /* Centraliza as imagens */
     }
 }
 
@@ -344,9 +348,14 @@ footer a:hover{
     h1{
         font-size: 3em;
     }
+      .carousel-control-next, .carousel-control-prev {
+        width: 10%; /* Ajusta os botões do carrossel para ficarem visíveis */
+    }
 
-    .btn-custom{
-        margin: 10px 15px;
+     .carousel-item img {
+        width: 300px; /* Reduz o tamanho das imagens para telas menores */
+        height: 300px;
+        margin: 0 auto; /* Centraliza as imagens */
     }
 }
 
@@ -354,6 +363,15 @@ footer a:hover{
 @media (min-width: 768px) and (max-width: 991.98px){
     h1{
         font-size: 4em;
+    }
+      .carousel-control-next, .carousel-control-prev {
+        width: 10%; /* Ajusta os botões do carrossel para ficarem visíveis */
+    }
+
+     .carousel-item img {
+        width: 300px; /* Reduz o tamanho das imagens para telas menores */
+        height: 300px;
+        margin: 0 auto; /* Centraliza as imagens */
     }
 }
 
