@@ -127,6 +127,19 @@ article a{
   margin-right: 30px;
 }
 
+.icon-prj {
+    margin-bottom: 5px;
+    font-size: 30px; /
+}
+
+.container-img-prj{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 30px;
+    gap: 5px; /* Espaço entre os ícones */
+    justify-content: right; /* Centraliza os ícones horizontalmente */
+}
+
 article p{
     color: #fff; /* Cor do link inicial, correspondente à cor do texto do article */
     transition: color 2s ease; /* Transição suave para a mudança de cor */
@@ -159,10 +172,6 @@ article:hover p{
 #contato a:hover{
     color: #000;    
     text-decoration: underline;
-}
-
-.albuns{
-    padding: 10px 0px;
 }
 
 .form-group {
@@ -204,11 +213,12 @@ form {
     margin-left: 20%;
 }
 
-.form-control {
+.form-control{
     width: 100%;
     padding: 10px;
     background: none;
     border: none;
+    border-radius: 0;
     border-bottom: 1px solid #bbb;
     color: #000;
     outline: none;
@@ -338,8 +348,8 @@ footer a:hover{
      .carousel-item img {
         width: 200px; /* Reduz o tamanho das imagens para telas menores */
         height: 200px;
-        margin: 0 auto; /* Centraliza as imagens */
-    }
+        margin-left: -20px;
+     }
 }
 
 
@@ -355,8 +365,8 @@ footer a:hover{
      .carousel-item img {
         width: 300px; /* Reduz o tamanho das imagens para telas menores */
         height: 300px;
-        margin: 0 auto; /* Centraliza as imagens */
-    }
+        margin-left: -20px;
+     }
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -371,7 +381,7 @@ footer a:hover{
      .carousel-item img {
         width: 300px; /* Reduz o tamanho das imagens para telas menores */
         height: 300px;
-        margin: 0 auto; /* Centraliza as imagens */
+        margin-left: -20px;
     }
 }
 
