@@ -348,7 +348,7 @@ footer a:hover{
      .carousel-item img {
         width: 200px; /* Reduz o tamanho das imagens para telas menores */
         height: 200px;
-        margin-left: -20px;
+        margin: 0 auto;
      }
 }
 
@@ -365,7 +365,7 @@ footer a:hover{
      .carousel-item img {
         width: 300px; /* Reduz o tamanho das imagens para telas menores */
         height: 300px;
-        margin-left: -20px;
+        margin: 0 auto;
      }
 }
 
@@ -381,7 +381,7 @@ footer a:hover{
      .carousel-item img {
         width: 300px; /* Reduz o tamanho das imagens para telas menores */
         height: 300px;
-        margin-left: -20px;
+        margin: 0 auto;
     }
 }
 
