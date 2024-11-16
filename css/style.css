@@ -370,3 +370,11 @@ footer a:hover{
         font-size: 6em;
     }
 }
+
+@media (max-width: 768px) {
+
+    .col-md-8{
+        margin-left: -100px;
+    }
+}
+
