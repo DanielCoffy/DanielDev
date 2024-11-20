@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #333;
+}
+
+.keyboard-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-field {
+    padding: 10px;
+    font-size: 20px;
+    height: 40px;
+    width: 400px;
+    margin-bottom: 20px;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.keyboard {
+    display: grid;
+    grid-template-columns: repeat(15, 1fr); /* Ajuste o número de colunas conforme necessário */
+    gap: 5px;
+    max-width: 1100px;
+    width: 100%;
+}
+
+.key {
+    padding: 15px;
+    font-size: 14px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: center;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.key:hover {
+    background-color: #ddd;
+}
+
+.key:active {
+    background-color: #bbb;
+}
+
+/* Estilos para teclas maiores, como "Enter", "Backspace", etc. */
+.key.enter {
+    grid-column: span 2;
+}
+
+.key.backspace {
+    grid-column: span 2;
+}
+
+.key.space {
+    grid-column: span 8;  
+}
+
+/* Estilo padrão para desktops maiores */
+.keyboard {
+    display: grid;
+    grid-template-columns: repeat(15, 1fr); /* 15 colunas no padrão */
+    gap: 6px;
+}
+
+.key {
+    padding: 18px;
+    font-size: 16px;
+}
+
+.input-field {
+    width: 500px;
+    font-size: 20px;
+}
+
+/* Para telas muito pequenas (menos de 400px) */
+@media (max-width: 400px) {
+    .keyboard {
+        grid-template-columns: repeat(4, 1fr); /* 4 colunas */
+        gap: 2px; /* Espaçamento mínimo */
+    }
+
+    .key {
+        padding: 8px;
+        font-size: 9px;
+    }
+
+    .input-field {
+        width: 90%; /* Campo de entrada ocupa quase toda a largura */
+        font-size: 14px;
+    }
+}
+
+/* Para smartphones no modo retrato (até 600px) */
+@media (max-width: 600px) {
+    
+    .keyboard {
+        grid-template-columns: repeat(5, 1fr); /* 5 colunas */
+        gap: 3px;
+    }
+
+    .key {
+        padding: 10px;
+        font-size: 10px;
+    }
+
+    .input-field {
+        width: 100%; /* Campo de entrada ocupa toda a largura */
+        font-size: 16px;
+    }
+}
+
+/* Para smartphones no modo paisagem (entre 400px e 768px) */
+@media (max-width: 768px) and (orientation: landscape) {
+    
+    .keyboard {
+        grid-template-columns: repeat(8, 1fr); /* 8 colunas para modo paisagem */
+        gap: 4px;
+    }
+
+    .key {
+        padding: 8px;
+        font-size: 11px;
+    }
+
+    .input-field {
+        width: 90%; /* Ajusta a largura do campo de entrada */
+    }
+}
+
+/* Para tablets e laptops pequenos (até 1024px) */
+@media (max-width: 1024px) {
+    
+    .keyboard {
+        grid-template-columns: repeat(10, 1fr); /* 10 colunas */
+        gap: 4px;
+    }
+
+    .key {
+        padding: 12px;
+        font-size: 12px;
+    }
+
+    .input-field {
+        width: 300px;
+    }
+}
+
+/* Para desktops maiores (largura acima de 1024px) */
+@media (min-width: 1024px) {
+    
+    .keyboard {
+        grid-template-columns: repeat(15, 1fr); /* Mantém 15 colunas */
+        gap: 6px;
+    }
+
+    .key {
+        padding: 18px;
+        font-size: 16px;
+    }
+
+    .input-field {
+        width: 500px;
+        font-size: 20px;
+    }
+}
+
