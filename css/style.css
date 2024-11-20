@@ -61,6 +61,12 @@ nav.navbar-transparente{
     width: 5%;
 }
 
+.carousel{
+    background-color: #000; 
+    border-radius: 12px; 
+    padding: 20px;
+}
+
 .carousel-item i{
     font-size: 400px;
     border-radius: 50%; 
