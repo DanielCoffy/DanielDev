@@ -372,9 +372,8 @@ footer a:hover{
       .carousel-control-next, .carousel-control-prev {
         width: 10%; /* Ajusta os botões do carrossel para ficarem visíveis */
     }
-     .carousel-item img {
-        width: 200px; /* Reduz o tamanho das imagens para telas menores */
-        height: 200px;
+     .carousel-item i{
+        font-size: 200px;
         margin: 0 auto;
      }
 }
@@ -389,9 +388,8 @@ footer a:hover{
         width: 10%; /* Ajusta os botões do carrossel para ficarem visíveis */
     }
 
-     .carousel-item img {
-        width: 300px; /* Reduz o tamanho das imagens para telas menores */
-        height: 300px;
+     .carousel-item i{
+        font-size: 300px;
         margin: 0 auto;
      }
 }
@@ -405,9 +403,8 @@ footer a:hover{
         width: 10%; /* Ajusta os botões do carrossel para ficarem visíveis */
     }
 
-     .carousel-item img {
-        width: 300px; /* Reduz o tamanho das imagens para telas menores */
-        height: 300px;
+     .carousel-item i{
+        font-size: 300px;
         margin: 0 auto;
     }
 }
