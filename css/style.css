@@ -373,7 +373,7 @@ footer a:hover{
         width: 10%; /* Ajusta os botões do carrossel para ficarem visíveis */
     }
      .carousel-item i{
-        font-size: 200px;
+        font-size: 100px;
         margin: 0 auto;
      }
 }
@@ -389,7 +389,7 @@ footer a:hover{
     }
 
      .carousel-item i{
-        font-size: 300px;
+        font-size: 100px;
         margin: 0 auto;
      }
 }
@@ -404,7 +404,7 @@ footer a:hover{
     }
 
      .carousel-item i{
-        font-size: 300px;
+        font-size: 100px;
         margin: 0 auto;
     }
 }
