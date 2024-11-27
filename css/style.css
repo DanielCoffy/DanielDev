@@ -373,10 +373,6 @@ footer a:hover{
         width: 10%; /* Ajusta os botões do carrossel para ficarem visíveis */
     }
     
-    .d-flex{
-        max-width: 150px;
-    }
-    
      .carousel-item i{
         font-size: 100px;
         margin: 0 auto;
@@ -393,10 +389,6 @@ footer a:hover{
         width: 10%; /* Ajusta os botões do carrossel para ficarem visíveis */
     }
 
-    .d-flex{
-        max-width: 150px;
-    }
-
      .carousel-item i{
         font-size: 100px;
         margin: 0 auto;
@@ -410,10 +402,6 @@ footer a:hover{
     }
       .carousel-control-next, .carousel-control-prev {
         width: 10%; /* Ajusta os botões do carrossel para ficarem visíveis */
-    }
-
-    .d-flex{
-        max-width: 150px;
     }
 
      .carousel-item i{
