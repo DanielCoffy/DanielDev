@@ -373,7 +373,7 @@ footer a:hover{
         width: 10%; /* Ajusta os botões do carrossel para ficarem visíveis */
     }
     
-    .carousel{
+    .d-flex{
         max-width: 150px;
     }
     
@@ -393,7 +393,7 @@ footer a:hover{
         width: 10%; /* Ajusta os botões do carrossel para ficarem visíveis */
     }
 
-    .carousel{
+    .d-flex{
         max-width: 150px;
     }
 
@@ -412,7 +412,7 @@ footer a:hover{
         width: 10%; /* Ajusta os botões do carrossel para ficarem visíveis */
     }
 
-    .carousel{
+    .d-flex{
         max-width: 150px;
     }
 
