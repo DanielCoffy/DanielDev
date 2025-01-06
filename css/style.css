@@ -369,7 +369,12 @@ footer a:hover{
 
 /* Extra small devices (portrait phones, less than 576px) */
 @media (min-width: 575.98px) {
-      .carousel-control-next, .carousel-control-prev {
+    .carousel-item img {
+        width: 300px; /* Reduz o tamanho das imagens para telas menores */
+        height: 300px;
+        margin: 0 auto; /* Centraliza as imagens */
+    }
+    .carousel-control-next, .carousel-control-prev {
         width: 10%; /* Ajusta os botões do carrossel para ficarem visíveis */
     }
     
