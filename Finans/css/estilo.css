@@ -1,12 +1,56 @@
-#home{
-   background: #ffc107;
-    color: #fff;
+
+body {
+    background-color: #1F2937;
+    color: #F9FAFB;
 }
 
-.caixa{
+#home {
+    background: #1F2937;
+    color: #F9FAFB;
+}
+
+.caixa {
     padding: 60px 0;
+    background-color: #374151;
+    color: #F9FAFB;
 }
 
-footer p a{
+footer {
+    background-color: #111827;
+    color: #F9FAFB;
+}
+
+footer p a {
     margin: 5px 15px;
+    color: #F9FAFB;
+}
+
+.btn-primary {
+    background-color: #F59E0B;
+    border-color: #F59E0B;
+}
+
+.btn-primary:hover {
+    background-color: #d97706;
+    border-color: #d97706;
+}
+
+.btn-outline-light {
+    color: #F9FAFB;
+    border-color: #F9FAFB;
+}
+
+.btn-outline-light:hover {
+    background-color: #F9FAFB;
+    color: #1F2937;
+}
+
+.btn-outline-dark {
+    border-color: #F9FAFB;
+    color: #F9FAFB;
+}
+
+.btn-outline-dark:hover {
+    background-color: #F9FAFB;
+    color: #1F2937;
 }
