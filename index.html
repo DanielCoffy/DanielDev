@@ -7,13 +7,13 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-
-    <!-- Devicons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css">
 
+    <script src="js/script.js"></script>
 
     <!-- Estilo customizado -->
     <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -60,7 +60,7 @@
           </div>
           <div class="col-md-6">
             <section id="sobre">
-            <h2>Sobre mim</h2>
+            <h2>Sobre Mim</h2>
             <p>Sou desenvolvedor com uma trajetória que une conhecimento técnico e uma perspectiva prática sobre tecnologia e negócios.</p>
             <p>Minha jornada começou com o curso técnico em informática pelo Senac, que me deu a base inicial em TI.</p> 
             <p>Com o tempo, ampliei minhas habilidades ao me formar em Gestão Financeira pela UCS, o que me ajudou a compreender a interseção entre tecnologia e processos empresariais.</p>
@@ -79,62 +79,127 @@
     </section>
 
     <section id="portifolio" class="caixa">
-      <div class="container">
-        <article>
-          <p>Finans é uma landing page desenvolvida como parte de um exercício prático durante cursos online, com o objetivo de aprendizado. 
-          A página apresenta de forma clara os principais recursos da plataforma de finanças pessoais, como a possibilidade de cadastrar-se para organizar e gerenciar despesas. 
-          Embora a parte logada, com gráficos e recursos avançados, ainda não tenha sido desenvolvida, a landing page serve como uma introdução visual ao conceito da ferramenta. 
-          A estrutura foi construída utilizando HTML5, CSS, Bootstrap e Font Awesome, proporcionando um design moderno, responsivo e funcional, otimizado para uma experiência agradável em diferentes dispositivos.</p>
-          <div class="container-img-prj">  
-            <i class="fab fa-html5  icon-prj"></i>
-            <i class="fab fa-css3-alt icon-prj"></i>
-            <i class="fab fa-js-square icon-prj"></i>
-          </div>
-          <a href="Finans/finans.html" target="_blank">Veja mais</a>
-        </article>
-        <article>
-        <p>Aplicação interativa que utiliza a API do TMDb para exibir e buscar filmes, com lista de populares, busca dinâmica e sinopses detalhadas.
-          O design responsivo e minimalista destaca as avaliações dos filmes com cores indicativas (verde, laranja e vermelho). Possui animações suaves e foco na experiência do usuário.
-          Projeto voltado para demonstração de habilidades em front-end e integração com APIs.</p>
-          <div class="container-img-prj">  
-            <i class="fab fa-html5  icon-prj"></i>
-            <i class="fab fa-css3-alt icon-prj"></i>
-            <i class="fab fa-js-square icon-prj"></i>
-          </div>
-          <a href="filme/App_Filmes.html" target="_blank">Veja mais</a>
-        </article>
-        <article>
-        <p>Este projeto é um jogo da memória desenvolvido com HTML, CSS e JavaScript. 
-          Utiliza um layout responsivo com grid para organizar as cartas e animações para transições suaves ao virar as cartas. 
-          As imagens são geradas dinamicamente via API, garantindo variação a cada partida. O jogo incorpora técnicas como manipulação do DOM, 
-          eventos e lógica para validação de combinações. Há também um contador de tentativas e reinício dinâmico, 
-          oferecendo uma experiência envolvente e intuitiva para os jogadores.</p>
-          <div class="container-img-prj">  
-            <i class="fab fa-html5  icon-prj"></i>
-            <i class="fab fa-css3-alt icon-prj"></i>
-            <i class="fab fa-js-square icon-prj"></i>
-          </div>
-          <a href="memoria/jogo_memoria.html" target="_blank">Veja mais</a>
-        </article>
-        <article>
-          <p>Teclado virtual dinâmico e interativo utilizando HTML, CSS e JavaScript puro. 
-            O projeto adota práticas de design responsivo para garantir usabilidade em dispositivos de diferentes tamanhos, 
-            desde smartphones até desktops. A interface elegante e funcional inclui transições suaves e ações interativas com as teclas, 
-            oferecendo uma experiência intuitiva ao usuário. O código JavaScript gerencia eventos de clique, atualizando o campo de entrada em tempo real. 
-            Com técnicas modernas de estilização e acessibilidade, o teclado combina inovação e funcionalidade para aplicações versáteis.</p>
-            <div class="container-img-prj">  
-              <i class="fab fa-html5  icon-prj"></i>
-              <i class="fab fa-css3-alt icon-prj"></i>
-              <i class="fab fa-js-square icon-prj"></i>
+      <div class="container accordion">
+        <!-- Item 1 - Finans -->
+        <div class="accordion-item">
+          <details class="accordion">
+            <summary class="accordion-button">
+              Finans<span class="arrow">▽</span>
+            </summary>
+            <div class="accordion-content">
+              <p>Finans é uma landing page desenvolvida como parte de um exercício prático durante cursos online, com o objetivo de aprendizado. 
+              A página apresenta de forma clara os principais recursos da plataforma de finanças pessoais, como a possibilidade de cadastrar-se para organizar e gerenciar despesas. 
+              Embora a parte logada, com gráficos e recursos avançados, ainda não tenha sido desenvolvida, a landing page serve como uma introdução visual ao conceito da ferramenta. 
+              A estrutura foi construída utilizando HTML5, CSS, Bootstrap e Font Awesome, proporcionando um design moderno, responsivo e funcional, otimizado para uma experiência agradável em diferentes dispositivos.</p>
+              <div class="container-img-prj">
+                <a href="Finans/finans.html" target="_blank">
+                <i class="bi bi-link-45deg icon animatedIcon" id="animatedIcon"></i>
+                <div class="tooltip-text">Acesse o projeto</div>
+                </a>
+                <a href="https://github.com/DanielCoffy/DanielDev/tree/main/Finans" target="_blank">
+                <img src="imagens/github.png">  
+                <div class="tooltip-text">Código do projeto</div>  
+                </a>
+                <img src="imagens/html.png">
+                <img src="imagens/css.png">
+                <img src="imagens/js.png">
+              </div>
+              
             </div>
-            <a href="tecladovirtual/teclado.html" target="_blank">Veja mais</a>
-          </article>
+          </details>
+        </div>
+    
+        <!-- Item 2 - Catálogo de Filmes -->
+        <div class="accordion-item">
+          <details class="accordion">
+            <summary class="accordion-button">
+              Catálogo de Filmes (TMDb)<span class="arrow">▽</span>
+            </summary>
+            <div class="accordion-content">
+              <p>Aplicação interativa que utiliza a API do TMDb para exibir e buscar filmes, com lista de populares, busca dinâmica e sinopses detalhadas.
+              O design responsivo e minimalista destaca as avaliações dos filmes com cores indicativas (verde, laranja e vermelho). Possui animações suaves e foco na experiência do usuário.
+              Projeto voltado para demonstração de habilidades em front-end e integração com APIs.</p>
+              <div class="container-img-prj">
+                <a href="filme/App_Filmes.html" target="_blank">
+                  <i class="bi bi-link-45deg icon animatedIcon" id="animatedIcon"></i>
+                  <div class="tooltip-text">Acesse o projeto</div>
+                </a>
+                <a href="https://github.com/DanielCoffy/DanielDev/tree/main/filme" target="_blank">
+                <img src="imagens/github.png">
+                <div class="tooltip-text">Código do projeto</div>    
+                </a>
+                <img src="imagens/html.png">
+                <img src="imagens/css.png">
+                <img src="imagens/js.png">
+              </div>
+            </div>
+          </details>
+        </div>
+    
+        <!-- Item 3 - Jogo da Memória -->
+        <div class="accordion-item">
+          <details class="accordion">
+            <summary class="accordion-button">
+              Jogo da Memória<span class="arrow">▽</span>
+            </summary>
+            <div class="accordion-content">
+              <p>Este projeto é um jogo da memória desenvolvido com HTML, CSS e JavaScript. 
+              Utiliza um layout responsivo com grid para organizar as cartas e animações para transições suaves ao virar as cartas. 
+              As imagens são geradas dinamicamente via API, garantindo variação a cada partida. O jogo incorpora técnicas como manipulação do DOM, 
+              eventos e lógica para validação de combinações. Há também um contador de tentativas e reinício dinâmico, 
+              oferecendo uma experiência envolvente e intuitiva para os jogadores.</p>
+              <div class="container-img-prj">
+                <a href="memoria/jogo_memoria.html" target="_blank">
+                  <i class="bi bi-link-45deg icon animatedIcon" id="animatedIcon"></i>
+                  <div class="tooltip-text">Acesse o projeto</div>
+                </a>
+                <a href="https://github.com/DanielCoffy/DanielDev/tree/main/memoria" target="_blank">
+                <img src="imagens/github.png">
+                <div class="tooltip-text">Código do projeto</div>    
+                </a>
+                <img src="imagens/html.png">
+                <img src="imagens/css.png">
+                <img src="imagens/js.png">
+              </div>
+            </div>
+          </details>
+        </div>
+    
+        <!-- Item 4 - Teclado Virtual -->
+        <div class="accordion-item">
+          <details class="accordion">
+            <summary class="accordion-button">
+              Teclado Virtual<span class="arrow">▽</span>
+            </summary>
+            <div class="accordion-content">
+              <p>Teclado virtual dinâmico e interativo utilizando HTML, CSS e JavaScript puro. 
+              O projeto adota práticas de design responsivo para garantir usabilidade em dispositivos de diferentes tamanhos, 
+              desde smartphones até desktops. A interface elegante e funcional inclui transições suaves e ações interativas com as teclas, 
+              oferecendo uma experiência intuitiva ao usuário. O código JavaScript gerencia eventos de clique, atualizando o campo de entrada em tempo real. 
+              Com técnicas modernas de estilização e acessibilidade, o teclado combina inovação e funcionalidade para aplicações versáteis.</p>
+              <div class="container-img-prj">
+                <a href="tecladovirtual/teclado.html" target="_blank">
+                <i class="bi bi-link-45deg icon animatedIcon" id="animatedIcon"></i>
+                <div class="tooltip-text">Acesse o projeto</div>
+                </a>
+                <a href="https://github.com/DanielCoffy/DanielDev/tree/main/tecladovirtual" target="_blank">
+                <img src="imagens/github.png">
+                <div class="tooltip-text">Código do projeto</div>
+              </a>  
+                <img src="imagens/html.png">
+                <img src="imagens/css.png">
+                <img src="imagens/js.png">
+              </div>
+            </div>
+          </details>
+        </div>
       </div>
-    </section>
+    </section>    
+
     <section id="contato" class="caixa">
       <div class="container">
         <div class="row">
-          <div class="col-md-4">
+          <div class="col-12 col-md-4">
             <br>
             <h3 style="margin-bottom: 20px;">Contato</h3>
             <h4>Fone:</h4>
@@ -161,9 +226,9 @@
                     </a>
                 </li>
             </ul>
-            <small><a href="https://drive.google.com/file/d/1x9YOKq936o2IiNX7p1QmQmcuOtAlvidJ/view?usp=sharing" style="text-decoration: underline;" target="_blank">Curriculum Vitae (PDF)</a></small>
+            <small><a href="https://drive.google.com/file/d/1x9YOKq936o2IiNX7p1QmQmcuOtAlvidJ/view?usp=sharing" style="text-decoration: underline;">Curriculum Vitae (PDF)</a></small>
           </div>
-          <div class="col-md-8">
+          <div class="col-12 col-md-8">
 
             <form action="https://formspree.io/f/mpwzrjrd" method="POST" class="needs-validation" novalidate>
               <div class="container-form">
@@ -209,25 +274,11 @@
         </div>
       </div>
     </footer>
-
-    <script>
-  document.querySelectorAll('a.nav-link').forEach(anchor => {
-    anchor.addEventListener('click', function(e) {
-      e.preventDefault();
-      const target = document.querySelector(this.getAttribute('href'));
-      if (target) {
-        target.scrollIntoView({
-          behavior: 'smooth'
-        });
-      }
-    });
-  });
-</script>
-
+    
     <!-- JavaScript (Opcional) -->
     <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-  </body>  
+  </body>
 </html>
